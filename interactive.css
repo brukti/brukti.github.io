@@ -1,0 +1,32 @@
+/* <style type="text/css">  */  
+body {     text-align: center;     
+    background-color: rgb(224, 220, 213);     
+    padding: 100px;     
+    padding-top: 10px; 
+}  
+.svgClass {     background-color:gray;     
+    float:left;     
+    width:70%;     
+    color:#fff;     
+    padding:10px;    
+     box-sizing:border-box; 
+    } 
+    path{     fill:white; 
+        transition: 1s fill; 
+    }
+     path:hover {     fill: burlywood;      
+   
+    }
+     button.hover{     fill: whitesmoke; 
+    }
+   
+            #navbar ul{
+                padding: 0;
+                list-style: none;}
+            #navbar li{
+                display:inline;}
+            #navbar a{
+                color:#fff;
+                text-decoration: none;
+                font-size: 18px;
+                padding-right:30px;}

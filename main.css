@@ -1,0 +1,54 @@
+body, html{
+    height: 100%;
+margin: 0; padding: 0;
+background: #282A2C;
+}
+
+h1{
+    color: whitesmoke;
+    font-family: Book antiqua;
+    font-size: 50px;
+    padding: 2px;
+    text-align: left
+
+    
+
+}
+}
+body{
+    background: #282A2C;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+svg{
+    width: 600px;
+    align-self: center;
+    justify-self: center;
+    margin-left: 300px;
+
+}
+svg:hover #TWO {
+    animation-duration: 1.2s;
+    animation-name: animateTWO;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    mix-blend-mode: overlay
+
+}
+#TWO{
+    opacity: 0;
+}
+@keyframes animateTWO{
+    from{
+        transform: translateX(0) translateY(30px);
+      opacity: 0;  
+    }
+    to{
+        transform: translateX(20px) translateY(-60px);
+        opacity:1;  
+    }
+}
+
+

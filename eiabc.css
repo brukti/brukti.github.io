@@ -1,0 +1,63 @@
+/* <style type="text/css">  */
+
+body {
+	text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+background-color: gray;
+	padding: 100px;
+	padding-top: 10px;
+}
+h1 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color:gray;
+	color: white;
+	text-align: left;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: gray;
+	text-align: left;
+}
+p{
+	text-align: left;	
+}
+.svgClass {
+	background-color:gray;
+	float:left;
+    width:70%;
+    color:#fff;
+    padding:10px;
+    box-sizing:border-box;
+}
+path{
+	fill:yellow; transition: 1s fill;
+}
+path:hover {
+	fill: yeloow;
+	 
+}
+
+.removed{
+display: none;
+}
+button{
+
+	position: relative;
+	color: white;
+	font-size: 20px;
+	background:gray;
+	border:none;
+	outline: none;
+	left: 0%;
+	width: 350px;
+	text-align: left;
+	}
+
+#path{
+    color: yellow;
+	}
+
+
+

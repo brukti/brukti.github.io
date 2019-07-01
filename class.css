@@ -1,0 +1,13 @@
+body{
+    text-align: left
+    color: black;
+    font-family: book antiqua; 
+    font-size: 20px;
+    background-color: #e0b5b5;
+    padding: 50px;
+}
+h1{
+    color: rgb(234, 245, 202);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(92, 92, 84);
+}

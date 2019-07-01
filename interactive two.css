@@ -1,0 +1,67 @@
+/* <style type="text/css">  */  
+body {     text-align: center;     
+    background-color: rgb(224, 220, 213);     
+    padding: 100px;     
+    padding-top: 10px; 
+}  
+.svgClass {     background-color:gray;     
+    float:left;     
+    width:70%;     
+    color:#fff;     
+    padding:10px;    
+     box-sizing:border-box; 
+    } 
+    polygon{     fill:white; 
+        transition: 1s fill; 
+    }
+     polygon:hover {     fill: burlywood;      
+     } 
+     .service { stroke:blue;
+        stroke-width: 2px;
+        stroke-dasharray: 3; 
+        fill:gainsboro; 
+        fill-opacity: 50%;
+    } 
+    .office{stroke:red;
+        stroke-width: 2px;
+        stroke-dasharray: 3; 
+        fill:gainsboro; 
+        fill-opacity: 10%;
+    } 
+    .mixed{stroke:orange;
+        stroke-width: 2px;
+        stroke-dasharray: 3; 
+        fill: gainsboro; 
+        fill-opacity: 50%;} 
+        
+.residential{stroke:yellow;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill: gainsboro; 
+    fill-opacity: 50%;} 
+    }
+     button.hover{     fill: whitesmoke; 
+    }
+     #sidebar{     text-align: left;     
+        float:right;    
+         width:30%;     
+         background:none;     
+         color:#fff;     
+         padding:0px;     
+         box-sizing:border-box; } 
+         .container{
+            width:80%;
+            margin:auto;
+            overflow:hidden;}#navbar{
+                background-color: #333;
+                color:#fff;}
+            #navbar ul{
+                padding: 0;
+                list-style: none;}
+            #navbar li{
+                display:inline;}
+            #navbar a{
+                color:#fff;
+                text-decoration: none;
+                font-size: 18px;
+                padding-right:30px;}
